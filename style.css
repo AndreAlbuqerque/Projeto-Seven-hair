@@ -73,7 +73,8 @@ div.normal > h1 {
 }
 
 div.normal > p {
-    width: 80vh;
+    max-width: 800px;
+    width: 90%;
     display: block;
     margin: auto;
     font-family: var(--fonte-textogrande);
