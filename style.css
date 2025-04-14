@@ -57,9 +57,26 @@ div.imagem {
     background-size: cover;
 }
 
+div#img02 {
+    background-image: url(imagens/imagem\ 02.png);
+    background-position: left bottom;
+}
+
 div#img01 > p {
     font-size: 3em;
     color: grey;
+    background-color: rgba(211, 211, 211, 0.411);
+    display: inline-block;
+    border-radius: 10px;
+    
+}
+div#img02 > p {
+    font-size: 2em;
+    color: gray;
+    background-color: rgba(211, 211, 211, 0.411);
+    display: inline-block;
+    border-radius: 10px;
+    text-align: center;
 }
 
 div.normal > h1 {
@@ -73,6 +90,7 @@ div.normal > h1 {
 }
 
 div.normal > p {
+    text-align: center;
     max-width: 800px;
     width: 90%;
     display: block;
@@ -91,6 +109,16 @@ div#normal02 {
 
 div#normal02 > h1 {
     color: white;
+}
+
+div#normal03 > p, a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+div#normal03 > p:hover {
+    background-color: var(--cor01);
 }
 
 
