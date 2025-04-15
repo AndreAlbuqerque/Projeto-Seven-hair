@@ -78,6 +78,10 @@ div#img02 > p {
     border-radius: 10px;
     text-align: center;
 }
+div#img03 {
+    background-image: url(imagens/imagem03.jpg);
+    background-position: center center;
+}
 
 div.normal > h1 {
     font-size: 3em;
